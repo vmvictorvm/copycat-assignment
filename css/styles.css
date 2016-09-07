@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+html {
+  font-size: 1.2em;
+}
+
+footer {
+  background-color: green;
+}
+
+
+header {
+  overflow: hidden;
+  background-color: green;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  float: left;
+  color: grey;
+  font-size: 30px;
+}
+
+.navbar {
+  float: right;
+}
+
+
+.nav-item {
+  display: inline-block;
+  padding: 2px;
+  margin: auto;
+}
+
+
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero {
+  overflow: hidden;
+  background-color: blue;
+}
+.hero-image {
+  float: left;
+  width: 60%;
+}
+
+.hero-content {
+  text-align: center;
+
+}
+
+.call-to-action {
+  background-color: yellow;
+}
+.call-to-action,
+.products,
+.about {
+  padding: 30px 20px;
+}
+
+
+
+
+
+
+.product-wrapper{
+  overflow: hidden;
+}
+.product-item {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.product-item > img {
+   border: 3px solid black;
+ }
+
+
+
+.about {
+    overflow: auto;
+    background-color: blue;
+}
+
+
+.team {
+  overflow: auto;
+}
+
+.team-fun,
+.team-values,
+.team-meow {
+  float: left;
+  width: 33.33333%
+  text-transform: uppercase;
+  text-align: center;
+}
